@@ -1,3 +1,31 @@
+/*banners for cellphones*/
+@media only screen and (max-width: 700px) {
+  #audioPhoto {}
+  #aurigamerPhoto {}
+  #aurinearPhoto {}
+  #aurivinchaPhoto {}
+  #celularesPhoto {}
+  #perifericosPhoto {}
+  #perigamerPhoto {}
+  #premiumPhoto {content:url("../images/catalogoPremiumPhone.png");}
+  #smartwatchPhoto {}
+  #soportesPhoto {}
+}
+
+/*banners for desktop*/
+@media only screen and (min-width: 701px) {
+  #audioPhoto {}
+  #aurigamerPhoto {}
+  #aurinearPhoto {}
+  #aurivinchaPhoto {}
+  #celularesPhoto {}
+  #perifericosPhoto {}
+  #perigamerPhoto {}
+  #premiumPhoto {content:url("../images/catalogoPremiumPC.png");}
+  #smartwatchPhoto {}
+  #soportesPhoto {}
+}
+
 .flexContainer {
   background-color: #d6eef8; 
   background-image: url("../images/background.png");
@@ -27,9 +55,9 @@
 .catalogueElement {
   flex-flow: column;   
   margin: 10px 40px;
-  height: 200px;
-  width: 100%; //1456x200
-  //height: auto;
+  width: 100%; 
+  height: auto;
+  border: 1px solid #3b5696;
   -webkit-box-shadow: 1px -1px 11px 1px rgb(0 0 0 / 54%);
 }  
 
