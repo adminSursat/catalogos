@@ -1,0 +1,47 @@
+.flexContainer {
+  background-color: #d6eef8; 
+  background-image: url("../images/background.png");
+  background-size: 100% auto;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px 10%;
+  padding: 10px 0px;
+  border-radius: 15px;
+  width: 80%;
+  height: auto;
+  background-repeat: repeat; 
+}
+
+#bannerH { 
+  width: 100%;
+  height: auto;
+}
+
+#bannerF { 
+  width: 100%;
+  height: auto;
+}
+
+.catalogueElement {
+  flex-flow: column;   
+  margin: 10px 40px;
+  height: 200px;
+  width: 100%; //1456x200
+  //height: auto;
+  -webkit-box-shadow: 1px -1px 11px 1px rgb(0 0 0 / 54%);
+}  
+
+.catalogueElement img {
+  width: 100%;
+  height: 100%;
+  //border-radius: 8px;
+}
+
+body {
+  font: 13px 'Calibri', sans-serif;
+  text-align: center;
+  margin: 0px;
+  background-image: linear-gradient(to right, #1b181c, #2d2a78, #0960a7, #0090d1, #0960a7, #2d2a78, #1b181c);
+}
