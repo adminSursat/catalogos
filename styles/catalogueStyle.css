@@ -1,27 +1,35 @@
 /*banners for cellphones*/
 @media only screen and (max-width: 700px) {
-  #audioPhoto {}
-  #gamerPhoto {}
-  #aurinearPhoto {}
-  #aurivinchaPhoto {}
-  #celularesPhoto {}
-  #perifericosPhoto {}
+  #audioPhoto {content:url("../images/catalogoAudioPhone.png");}
+  #aurinearPhoto {content:url("../images/catalogoAurinearPhone.png");}
+  #aurivinchaPhoto {content:url("../images/catalogoAurivinchaPhone.png");}
+  #celularesPhoto {content:url("../images/catalogoCelularesPhone.png");}
+  #gamerPhoto {content:url("../images/catalogoGamerPhone.png");}
+  #madrePhoto {content:url("../images/catalogoMadrePhone.png");}
+  #navidadPhoto {content:url("../images/catalogoNavidadPhone.png");}
+  #ninoPhoto {content:url("../images/catalogoNinoPChone.png");}
+  #padrePhoto {content:url("../images/catalogoPadrePhone.png");}
+  #perifericosPhoto {content:url("../images/catalogoPerifericosPhone.png");}
   #premiumPhoto {content:url("../images/catalogoPremiumPhone.png");}
-  #smartwatchPhoto {}
-  #soportesPhoto {}
+  #smartwatchPhoto {content:url("../images/catalogoSmartwatchPhone.png");}
+  #soportesPhoto {content:url("../images/catalogoSoportesPhone.png");}
 }
 
 /*banners for desktop*/
 @media only screen and (min-width: 701px) {
-  #audioPhoto {}
-  #gamerPhoto {}
-  #aurinearPhoto {}
-  #aurivinchaPhoto {}
-  #celularesPhoto {}
-  #perifericosPhoto {}
+  #audioPhoto {content:url("../images/catalogoAudioPC.png");}
+  #aurinearPhoto {content:url("../images/catalogoAurinearPC.png");}
+  #aurivinchaPhoto {content:url("../images/catalogoAurivinchaPC.png");}
+  #celularesPhoto {content:url("../images/catalogoCelularesPC.png");}
+  #gamerPhoto {content:url("../images/catalogoGamerPC.png");}
+  #madrePhoto {content:url("../images/catalogoMadrePC.png");}
+  #navidadPhoto {content:url("../images/catalogoNavidadPC.png");}
+  #ninoPhoto {content:url("../images/catalogoNinoPC.png");}
+  #padrePhoto {content:url("../images/catalogoPadrePC.png");}
+  #perifericosPhoto {content:url("../images/catalogoPerifericosPC.png");}
   #premiumPhoto {content:url("../images/catalogoPremiumPC.png");}
-  #smartwatchPhoto {}
-  #soportesPhoto {}
+  #smartwatchPhoto {content:url("../images/catalogoSmartwatchPC.png");}
+  #soportesPhoto {content:url("../images/catalogoSoportesPC.png");}
 }
 
 .flexContainer {
