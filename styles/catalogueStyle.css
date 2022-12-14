@@ -1,4 +1,4 @@
-/*banners for cellphones*/
+/* banners for cellphones */
 @media only screen and (max-width: 700px) {
   #audioPhoto {content:url("../images/catalogoAudioPhone.png");}
   #aurinearPhoto {content:url("../images/catalogoAurinearPhone.png");}
@@ -7,6 +7,7 @@
   #gamerPhoto {content:url("../images/catalogoGamerPhone.png");}
   #madrePhoto {content:url("../images/catalogoMadrePhone.png");}
   #navidadPhoto {content:url("../images/catalogoNavidadPhone.png");}
+  #navidadGamerPhoto {content:url("../images/catalogoNavidadGamerPhone.png");}
   #ninoPhoto {content:url("../images/catalogoNinoPChone.png");}
   #padrePhoto {content:url("../images/catalogoPadrePhone.png");}
   #perifericosPhoto {content:url("../images/catalogoPerifericosPhone.png");}
@@ -14,7 +15,7 @@
   #soportesPhoto {content:url("../images/catalogoSoportesPhone.png");}
 }
 
-/*banners for desktop*/
+/* banners for desktop */
 @media only screen and (min-width: 701px) {
   #audioPhoto {content:url("../images/catalogoAudioPC.png");}
   #aurinearPhoto {content:url("../images/catalogoAurinearPC.png");}
@@ -23,6 +24,7 @@
   #gamerPhoto {content:url("../images/catalogoGamerPC.png");}
   #madrePhoto {content:url("../images/catalogoMadrePC.png");}
   #navidadPhoto {content:url("../images/catalogoNavidadPC.png");}
+  #navidadGamerPhoto {content:url("../images/catalogoNavidadGamerPC.png");}
   #ninoPhoto {content:url("../images/catalogoNinoPC.png");}
   #padrePhoto {content:url("../images/catalogoPadrePC.png");}
   #perifericosPhoto {content:url("../images/catalogoPerifericosPC.png");}
